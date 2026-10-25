@@ -5,11 +5,27 @@
     background-repeat: no-repeat;
 }
 
+navbar{
+    max-height: 5%;
+}
+
 navbar ul{
+    display: flex;
     list-style: none;
     background-color: olive;
     color: white;
     justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    max-width: 20%;
+}
+
+#logo-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 #input{
