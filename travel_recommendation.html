@@ -7,22 +7,38 @@
     <body>
         <navbar>
             <ul>
-                <img src="Airplane-Logo-Design.jpg">
-                <h1>TravelBloom</h1>
-                <li><a href="#">Home</li>
-                <li><a href="">About Us</li>
-                <li><a href="">Contact Us</li>
-                <li><input type="text" placeholder="Search Recommendations">
-                <button onclick="">Search</button>
-                <button onclick="">Reset</button></li>
+                <li><img id="logo" src="Airplane-Logo-Design.jpg"><h1>TravelBloom</h1></li>
+                <li><a href="#">Home</a>
+                    <a href="">About Us</a>
+                    <a href="">Contact Us</a></li>
+                <li><input id="input" type="text" placeholder="Enter a destination or keyword">
+                <button class = "sub-button" onclick="">Search</button>
+                <button class = "sub-button" onclick="">Reset</button></li>
             </ul>
         </navbar>
-        <div id="background">
-            <div id="content">
-
+        <main>
+            <div id="background">
+                <div id="content">
+                    <img src="background.jpg">
+                    <div id="logos">
+                        <img src="X-logo.png">
+                        <img src="Youtube-Logo.png">
+                        <img src="facebook-logo.jpg">
+                        <img src="instagram-logo.png">
+                    </div>
+                    <div id="information">
+                        <h1>Explore Dream Destination</h1><br>
+                        <p>The travel Recommendation helps users explore 
+                        popular travel destinations through an interactive and user friendly interface. 
+                        It allows users to search for beaches, temples, countries, 
+                        or specific country names to view related cities along with
+                        images and descriptions. The app dynamically fetches data from a
+                        structured JSON file to display relevant results. It provides
+                        a simple and efficient way to discover and plant travel destinations.</p><br>
+                        <button id="bookingbtn" onclick="">Book Now</button>
+                    </div>
+                </div>
             </div>
-            <img src="background.jpg">
-
-        </div>
+        </main>
     </body>
 </html>

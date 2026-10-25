@@ -4,3 +4,46 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+navbar ul{
+    list-style: none;
+    background-color: olive;
+    color: white;
+    justify-content: space-between;
+}
+
+#input{
+    border-radius: 20px;
+}
+
+.sub-button{
+    border-radius: 20px;
+    color: white;
+    background-color: green;
+}
+
+.sub-button:hover{
+    cursor: pointer;
+    background-color: darkgreen;
+}
+
+#content{
+    z-index: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#bookingbtn{
+    background-color: olive;
+    color: white;
+    border-radius: 15px;
+}
+
+#bookingbtn:hover{
+    background-color: darkolivegreen;
+}
+
+#logos{
+    display: flex;
+    flex-direction: column;
+}
