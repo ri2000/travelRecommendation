@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="./travel_recommendations.css">
     </head>
     <body>
+        <script src="./travel_recommendation.js"></script>
         <navbar>
             <ul>
                 <li>
@@ -14,23 +15,22 @@
                         <h1>TravelBloom</h1>
                     </div>
                 </li>
-                <li><a href="#">Home</a>
-                    <a href="">About Us</a>
-                    <a href="">Contact Us</a></li>
-                <li><input id="input" type="text" placeholder="Enter a destination or keyword">
-                <button class = "sub-button" onclick="">Search</button>
+                <li id="links"><a href="#">Home</a>
+                    <a href="./about_us.html">About Us</a>
+                    <a href="./contact_us.html">Contact Us</a></li>
+                <li><input id="input" type="text" size=30 placeholder="Enter a destination or keyword">
+                <button class = "sub-button" onclick="searchResults()">Search</button>
                 <button class = "sub-button" onclick="">Reset</button></li>
             </ul>
         </navbar>
         <main>
             <div id="background">
                 <div id="content">
-                    <img src="background.jpg">
-                    <div id="logos">
-                        <img src="X-logo.png">
-                        <img src="Youtube-Logo.png">
-                        <img src="facebook-logo.jpg">
-                        <img src="instagram-logo.png">
+                    <div id="logos-media">
+                        <img class="media" src="X-logo.png">
+                        <img class="media" src="YouTube-Logo.png">
+                        <img class="media" src="facebook-logo.jpg">
+                        <img class="media" src="instagram-logo.png">
                     </div>
                     <div id="information">
                         <h1>Explore Dream Destination</h1><br>

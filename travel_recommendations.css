@@ -1,8 +1,11 @@
 #background{
-    background-image: url("./Airplane-Logo-Design.jpg");
+    background-image: url("./background.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    aspect-ratio: 12/8;
+    display: flex;
+    align-items: center;
 }
 
 navbar{
@@ -18,18 +21,24 @@ navbar ul{
     align-items: center;
 }
 
-#logo{
-    max-width: 20%;
-}
-
 #logo-container{
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
+#logo{
+    max-width: 20%;
+}
+
+#links{
+    display: flex;
+    gap: 20px;
+}
+
 #input{
     border-radius: 20px;
+    overflow: visible;
 }
 
 .sub-button{
@@ -44,22 +53,62 @@ navbar ul{
 }
 
 #content{
-    z-index: 1;
     display: flex;
-    justify-content: flex-start;
+    z-index: 1;
+    max-width: 50%;
+    gap: 0;
 }
 
 #bookingbtn{
     background-color: olive;
     color: white;
-    border-radius: 15px;
+    border-radius: 5px;
+    z-index: 1;
 }
 
 #bookingbtn:hover{
     background-color: darkolivegreen;
 }
 
-#logos{
+#logos-media{
     display: flex;
+    z-index: 1;
+    gap: 15px;
     flex-direction: column;
+}
+
+.media{
+    max-width: 30px;
+    margin: 10px;
+}
+
+#information{
+    z-index: 1;
+    color: black;
+}
+
+#result{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 2%;
+    z-index: 1;
+    flex-wrap: wrap;
+}
+
+.card{
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    border-radius: 10px;
+    flex-direction: column;
+    max-width: 20%;
+}
+
+.card img{
+    max-width: 90%;
 }

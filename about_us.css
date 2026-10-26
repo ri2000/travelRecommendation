@@ -1,0 +1,90 @@
+#background{
+    background-image: url("./background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    aspect-ratio: 12/8;
+    display: flex;
+    align-items: center;
+}
+
+navbar{
+    max-height: 5%;
+}
+
+navbar ul{
+    display: flex;
+    list-style: none;
+    background-color: olive;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#logo{
+    max-width: 20%;
+}
+
+#links{
+    display: flex;
+    gap: 20px;
+}
+
+#content{
+    display: flex;
+    z-index: 1;
+    gap: 0;
+}
+
+#logos-media{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    gap: 15%;
+}
+
+.media{
+    max-width: 30px;
+    margin: 10px;
+}
+
+#information{
+    z-index: 1;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+#our_team{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+    justify-items: center;
+}
+
+.team_member{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+}
+
+.team_member img{
+    max-width: 40px;
+}
+
+.company_position{
+    background-color: green;
+    color: white;
+    max-width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+}
