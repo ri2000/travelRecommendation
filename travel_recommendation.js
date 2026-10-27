@@ -109,3 +109,17 @@ function searchResults(){
         return;
     }
 }
+
+function clearResults(){
+    document.getElementById('input').value = "";
+    document.getElementById('information').innerHTML = `<h1>Explore Dream Destination</h1><br>
+    <p>The travel Recommendation helps users explore 
+    popular travel destinations through an interactive and user friendly interface. 
+    It allows users to search for beaches, temples, countries, 
+    or specific country names to view related cities along with
+    images and descriptions. The app dynamically fetches data from a
+    structured JSON file to display relevant results. It provides
+    a simple and efficient way to discover and plant travel destinations.</p><br>
+    <button id="bookingbtn" onclick="">Book Now</button>`;
+}
+
